@@ -6,7 +6,7 @@ const ignoreFeild = {
     __v: 0,
     password: 0
 }
-
+// user router
 router.post('/register', async (req, res) => {
     const { email, password, name } = req.body
     try {
