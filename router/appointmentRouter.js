@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const Appointment = require('../model/Appointment')
-
+// appoinment router
 
 router.get('/', async (req, res) => {
     try {
