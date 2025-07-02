@@ -1,7 +1,7 @@
 const router = require('express').Router()
 const Service = require('../model/Service')
 
-
+// Service router
 router.get('/', async (req, res) => {
     try {
         const services = await Service.find()
