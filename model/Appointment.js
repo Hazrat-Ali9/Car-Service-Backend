@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-
+// Appoinment
 const appointmentSchema = new mongoose.Schema({
     name: {
         type: String,
